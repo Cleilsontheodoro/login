@@ -1,0 +1,86 @@
+body {
+    padding: 0;  
+    margin: 0;  
+    background-image: linear-gradient(45deg, rgb(11, 226, 226), green);
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif}
+
+.card {
+    background-color: rgba(2, 46, 2, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    width: 280px;
+
+}
+
+.card-header {
+    padding-bottom: 45px;
+    opacity: 0.8;
+    color: #fffbfb;
+}
+ .card-header::after {
+    content: " ";
+    width: 70px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block ;
+    margin-top: -17px;
+    margin-left: -5px;
+    
+ } 
+ .card-content-label {
+    color: #753d3d;
+    font-size: 12px;
+    opacity: 0.1;
+ }
+  .card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+  }
+ .card-content-area input {
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+ }
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+  }
+   .card-footer .submit {
+      width: 100%;
+      height: 40px;
+      background-color: #a13854;
+      border: none;
+      color: #e1e1e1;
+      margin: 12px 0;
+      cursor: pointer; 
+      border-radius: 15px;
+      padding: 15px;
+  }
+  .card-footer :hover {
+
+    background-color: darkred;
+    
+
+  }
+  .card-footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color:#fff;
+    text-decoration: none;
+    margin: none;
+    border: none; 
+}
+
